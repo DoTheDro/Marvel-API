@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, span, a, input {
+    font-family: 'Jura', sans-serif;
+}
+
+.main-con {
+    width: 100%;
+    height: inherit;
+    background-color: #152023;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-con .contents {
+    text-align: center;
+}
+
+.header-con {
+    position: absolute;
+}
+
+.header-con .header-column {
+    background: #161616;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-con .header-column a {
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+.header-con .header-column input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #9D9D9D;
+    color: #FFF;
+}
+
+.header-con .header-column input,
+.main-con input {
+    text-align: center;
+}
+
+.header-con .header-column input:placeholder,
+.main-con input:placeholder {
+    font-family: 'Jura', sans-serif;
+}
+
+.header-con .header-column input:focus,
+.main-con input:focus {
+    outline: none;
+}
+
+.main-con h1 {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 400;
+    width: 850px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.main-con input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
